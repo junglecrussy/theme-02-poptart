@@ -1,0 +1,52 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+:root{
+  --logo-blue: #ff0000;
+  --darker-blue: #ff006e;
+  --lighter-blue: #ff5cdf;
+  --even-lighter-blue: #ffffff;
+  --lightest-blue: #ffffff;
+  --light-orange: #ffb4d4;
+
+  accent-color: #FF0000;
+  accent-color: var(--red);
+}
+
+body{font-family: 'DotGothic16', sans-serif;}
+
+body {
+  background-image: url("https://64.media.tumblr.com/e7aaee7053ed5c088bdc860916bde8d8/6388fa4d52fda0ee-7c/s500x750/6b6cca6f68f9c65a9d76a2d7f71e718b0062051a.gifv");
+}
+
+* {
+cursor: url(https://www.dropbox.com/s/6hkn23feizqc8wg/normal.cur?dl=0), url(https://64.media.tumblr.com/858c2d2c877a74ab62a30cbdcd601736/60ad6e75b8922412-c1/s75x75_c1/b039586c23db907460d11b4bffd21acd4c513698.png), auto !important;
+}
+
+.profile .contact,
+.profile .url-info,
+.profile .table-section,
+.home-actions{
+width: 100%;
+border: 2px solid #FFFFFF;
+border: 2px solid var(--even-lighter-blue);
+margin: 10px 0;
+}
+.profile .contact .heading,
+.profile .table-section .heading,
+.home-actions .heading{
+background: #ffb4d4;
+background: var(--light-orange);
+color: red;
+padding: 2px 7px;
+}
+
+.online img {
+  filter: brightness(150%);
+}
+
+.online {
+    color: #9de042;
+}
+
+</style>
